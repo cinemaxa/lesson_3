@@ -1,3 +1,44 @@
-p {
-  font-size: 36px;
+div {
+  color: rgb(27, 9, 9);
+}
+.food__list {
+  color: black;
+}
+[class*="__citra"] {
+  color: orangered;
+}
+[class*="meat"] {
+  color: rgb(139, 35, 35);
+}
+
+.green__p {
+  color: lawngreen;
+}
+.color.blue {
+  color: lightseagreen;
+}
+.text span {
+  color: salmon;
+}
+.text__text,
+.text__t {
+  color: darkcyan;
+}
+.section > h2 {
+  color: deepskyblue;
+}
+#one {
+  color: gray;
+}
+div p {
+  color: hotpink;
+}
+h1 + p {
+  color: blue;
+}
+.black {
+  color: black;
+}
+p ~ h3 {
+  color: gold;
 }
