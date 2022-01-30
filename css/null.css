@@ -26,3 +26,7 @@ h6 {
 img {
   vertical-align: top;
 }
+body,
+html {
+  height: 100%;
+}

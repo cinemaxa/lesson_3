@@ -1,44 +1,80 @@
-div {
-  color: rgb(27, 9, 9);
-}
-.food__list {
-  color: black;
-}
-[class*="__citra"] {
-  color: orangered;
-}
-[class*="meat"] {
-  color: rgb(139, 35, 35);
-}
+/* &display=swap" */
+/* @import "null.css"; */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:wght@400;700&display=swap");
+@font-face {
+  font-family: CircularStd;
+  src: url("../fons/CircularStd-Book.woff2") format("woof2"),
+    url("../fons/CircularStd-Book.woff") format("woof");
 
-.green__p {
-  color: lawngreen;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
-.color.blue {
-  color: lightseagreen;
+@font-face {
+  font-family: CircularStd;
+  src: url("../fons/CircularStd-Bold.woff2") format("woof2"),
+    url("../fons/CircularStd-Bold.woff") format("woof");
+
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
-.text span {
-  color: salmon;
+@font-face {
+  font-family: CircularStd;
+  src: url("../fons/CircularStd-Black.woff2") format("woof2"),
+    url("../fons/CircularStd-Black.woff") format("woof");
+
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
-.text__text,
-.text__t {
-  color: darkcyan;
+/* свойство шрифта
+font-family устанавливает семейство шрифта */
+body {
+  font-family: "Lato", sans-serif;
 }
-.section > h2 {
-  color: deepskyblue;
+.title {
+  font-family: "CircularStd", sans-serif;
+  font-size: 36px;
 }
-#one {
-  color: gray;
+.item {
+  color: rgb(40, 190, 47);
+  font-size: 14px;
 }
-div p {
-  color: hotpink;
+.item-two {
+  color: brown;
+  font-size: 15px;
+  font-style: italic;
 }
-h1 + p {
-  color: blue;
+.iten__tri {
+  font-family: "Comforter", cursive;
+  font-size: 20px;
+  color: #ff3f3a;
 }
-.black {
-  color: black;
+.text__section__one {
+  text-align: center;
 }
-p ~ h3 {
-  color: gold;
+.text__section__two {
+  text-decoration: line-through;
+}
+.text__section__three {
+  text-shadow: 1px 2px 5px rgba(247, 109, 217, 0.74);
+}
+.link {
+  text-decoration: underline;
+}
+.section__two {
+  text-indent: 25px;
+  letter-spacing: 10px;
+  word-spacing: 15px;
+}
+.section__two-text {
+  text-transform: uppercase;
+}
+.span__text {
+  font-family: "Neonderthaw", cursive;
+  text-transform: none;
+  font-size: 25px;
+  line-height: 1, 2;
 }
