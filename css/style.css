@@ -37,6 +37,7 @@ body {
 .title {
   font-family: "CircularStd", sans-serif;
   font-size: 36px;
+  text-align: end;
 }
 .item {
   color: rgb(40, 190, 47);
@@ -59,6 +60,7 @@ body {
   text-decoration: line-through;
 }
 .text__section__three {
+  color: rgb(102, 52, 219);
   text-shadow: 1px 2px 5px rgba(247, 109, 217, 0.74);
 }
 .link {
@@ -76,5 +78,6 @@ body {
   font-family: "Neonderthaw", cursive;
   text-transform: none;
   font-size: 25px;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
+/* ===================== */
